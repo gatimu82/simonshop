@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "75661716594",
+    "project_id": "simons-shop-1c93c",
+    "storage_bucket": "simons-shop-1c93c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75661716594:android:1f615795c8e8ae6f6c66eb",
+        "android_client_info": {
+          "package_name": "com.example.simonsshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75661716594-4ocm1qgt676mtbakvf8qkso3n99sihdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUftZXmf2x1ShALQONwNvjAQxezvoZh5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75661716594-4ocm1qgt676mtbakvf8qkso3n99sihdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

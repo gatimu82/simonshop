@@ -1,0 +1,22 @@
+package com.example.simonsshop
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
+
+class luisvitonoutfit : AppCompatActivity() {
+    lateinit var pay: Button
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_luisvitonoutfit)
+        pay=findViewById(R.id.mBtnBuynow)
+        pay=findViewById(R.id.mBtnBuynow)
+        pay.setOnClickListener {
+            val intent = Intent(this,Modeofpayment::class.java)
+            startActivity(intent)
+            Toast.makeText(this@luisvitonoutfit,"Success", Toast.LENGTH_LONG).show()
+        }
+    }
+}

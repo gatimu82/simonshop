@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.simonsshop" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SimonsShop"
+        tools:targetApi="31" >
+        <activity
+            android:name=".pant"
+            android:exported="false" />
+        <activity
+            android:name=".shirt"
+            android:exported="false" />
+        <activity
+            android:name=".greencargo"
+            android:exported="false" />
+        <activity
+            android:name=".whitecargo"
+            android:exported="false" />
+        <activity
+            android:name=".blackcargo"
+            android:exported="false" />
+        <activity
+            android:name=".chicago"
+            android:exported="false" />
+        <activity
+            android:name=".nojacket"
+            android:exported="false" />
+        <activity
+            android:name=".nyjacket"
+            android:exported="false" />
+        <activity
+            android:name=".summerdress"
+            android:exported="false" />
+        <activity
+            android:name=".redfire"
+            android:exported="false" />
+        <activity
+            android:name=".offwhite"
+            android:exported="false" />
+        <activity
+            android:name=".millitaryblack"
+            android:exported="false" />
+        <activity
+            android:name=".blackcart"
+            android:exported="false" />
+        <activity
+            android:name=".airforcecj"
+            android:exported="false" />
+        <activity
+            android:name=".trainer1sp"
+            android:exported="false" />
+        <activity
+            android:name=".SBlowDunk"
+            android:exported="false" />
+        <activity
+            android:name=".j4cactusj"
+            android:exported="false" />
+        <activity
+            android:name=".Modeofpayment"
+            android:exported="false" />
+        <activity
+            android:name=".vercityjacket"
+            android:exported="false" />
+        <activity
+            android:name=".luisvitonoutfit"
+            android:exported="false" />
+        <activity
+            android:name=".Luisviton"
+            android:exported="false" />
+        <activity
+            android:name=".Tshirtandpants"
+            android:exported="false" />
+        <activity
+            android:name=".Jordan4"
+            android:exported="false" />
+        <activity
+            android:name=".Tracksuits"
+            android:exported="false" />
+        <activity
+            android:name=".cargopants"
+            android:exported="false" />
+        <activity
+            android:name=".cactusjack"
+            android:exported="false" />
+        <activity
+            android:name=".Myhome"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Email_signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shop"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
