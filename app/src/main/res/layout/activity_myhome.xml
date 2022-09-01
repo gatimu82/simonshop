@@ -29,6 +29,7 @@
             android:background="#C60606"
             app:srcCompat="@drawable/img2" />
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -58,6 +59,18 @@
                 android:background="#2196F3"
                 android:text="VIEW PRODUCTS"
                 android:textColor="#880E4F"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/logoutbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/back"
+                android:text="logout"
+                android:textColor="#00BCD4"
                 android:textSize="24sp" />
 
             <TextView
