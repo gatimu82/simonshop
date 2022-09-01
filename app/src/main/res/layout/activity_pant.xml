@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:text="New York"
+        android:text="New York pants"
         android:textSize="30dp"
         android:textStyle="bold|italic" />
 
